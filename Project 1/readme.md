@@ -7,7 +7,8 @@ Make a ring which glows when worn
 ## Circuit For Detection
 * A capacitive touch sensor can be utilized here and placed such that whenever a finger is pushed through the sensepad senses it.
 * In addition two sense pads can be used on opposite sides of the ring, so that the detection happens only when both sensepads are active.
-* The IC which is one of the cheapest, and has a deep sleep feature for power saving which I could find is *AT42QT1012*.[AT42QT1012 Datasheet](https://www.mouser.in/datasheet/2/268/40001948A-1145202.pdf)
+* The IC which is one of the cheapest, and has a deep sleep feature for power saving which I could find is *AT42QT1012*.
+[AT42QT1012 Datasheet](https://www.mouser.in/datasheet/2/268/40001948A-1145202.pdf)
 ## Power Supply
 Cells which are small in size are the best option and as the IC reqires around 3V, 2 button cells of 1.5V each can be used
 ## LED
