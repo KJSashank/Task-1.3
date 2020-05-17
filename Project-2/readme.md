@@ -14,6 +14,8 @@
 * The ESP8266 and the RPi communicate through wifi using the MQTT protocol, which avoids entanglement of wires.
 * The Ultrasonic sensors are directly connected to the RPi via I2C again and gives out instructions to the ESPs for movemets of the  leg appropriately depending on which leg to move.
 ## Pipeline
-* Position Sensors =I2C=> ESP8266s =MQTT=> RPi ----
+Position Sensors =I2C=> ESP8266s =MQTT=> RPi ----
+
                                                   ---- =MQTT=> ESP8266s =PWM=> Motors( change orientation accordingly)
-* Object/obstacle sensors and COM IMU =I2C=> RPi --
+                                                  
+Object/obstacle sensors and COM IMU =I2C=> RPi --
