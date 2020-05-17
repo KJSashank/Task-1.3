@@ -16,6 +16,6 @@
 ## Pipeline
 Position Sensors =I2C=> ESP8266s =MQTT=> RPi ----
 
-                                                  ---- =MQTT=> ESP8266s =PWM=> Motors( change orientation accordingly)
+                                                     --- =MQTT=> ESP8266s =PWM=> Motors( change orientation accordingly)
                                                   
 Object/obstacle sensors and COM IMU =I2C=> RPi --
